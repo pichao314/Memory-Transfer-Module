@@ -1,0 +1,218 @@
+$date
+	Mon Mar 18 23:49:51 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test $end
+$var wire 8 ! DataInB [7:0] $end
+$var wire 5 " counter [4:0] $end
+$var wire 1 # WEB $end
+$var wire 1 $ WEA $end
+$var wire 1 % Sign $end
+$var wire 8 & SUBOut [7:0] $end
+$var wire 1 ' IncB $end
+$var wire 1 ( IncA $end
+$var wire 8 ) DOut2 [7:0] $end
+$var wire 8 * DOut1 [7:0] $end
+$var wire 2 + AddrB [1:0] $end
+$var wire 3 , AddrA [2:0] $end
+$var wire 8 - ADDOut [7:0] $end
+$var reg 8 . DataInA [7:0] $end
+$var reg 1 / Reset $end
+$var reg 1 0 clock $end
+$var integer 32 1 k [31:0] $end
+$scope module ad $end
+$var wire 8 2 DOut2 [7:0] $end
+$var wire 8 3 DOut1 [7:0] $end
+$var reg 8 4 ADDOut [7:0] $end
+$upscope $end
+$scope module cp $end
+$var wire 8 5 DOut2 [7:0] $end
+$var wire 8 6 DOut1 [7:0] $end
+$var reg 1 % Sign $end
+$upscope $end
+$scope module ct $end
+$var wire 1 / Reset $end
+$var wire 1 0 clock $end
+$var reg 1 ( IncA $end
+$var reg 1 ' IncB $end
+$var reg 1 $ WEA $end
+$var reg 1 # WEB $end
+$var reg 5 7 counter [4:0] $end
+$upscope $end
+$scope module dff $end
+$var wire 1 0 clock $end
+$var wire 8 8 DOut1 [7:0] $end
+$var reg 8 9 DOut2 [7:0] $end
+$upscope $end
+$scope module ma $end
+$var wire 8 : DataInA [7:0] $end
+$var wire 1 ( IncA $end
+$var wire 1 / Reset $end
+$var wire 1 $ WEA $end
+$var wire 1 0 clock $end
+$var reg 3 ; AddrA [2:0] $end
+$var reg 8 < DOut1 [7:0] $end
+$upscope $end
+$scope module mb $end
+$var wire 8 = DataInB [7:0] $end
+$var wire 1 ' IncB $end
+$var wire 1 / Reset $end
+$var wire 1 # WEB $end
+$var wire 1 0 clock $end
+$var reg 2 > AddrB [1:0] $end
+$upscope $end
+$scope module sb $end
+$var wire 8 ? DOut1 [7:0] $end
+$var wire 8 @ DOut2 [7:0] $end
+$var reg 8 A SUBOut [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx A
+bx @
+bx ?
+bx >
+bz =
+bx <
+bx ;
+b0 :
+bx 9
+bx 8
+b0 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+b0 1
+00
+1/
+b0 .
+bx -
+bx ,
+bx +
+bx *
+bx )
+x(
+x'
+bx &
+x%
+x$
+x#
+b0 "
+bz !
+$end
+#80
+0/
+#100
+b0 +
+b0 >
+0'
+0#
+1(
+1$
+b1 "
+b1 7
+b1 1
+10
+#200
+b10 1
+00
+#300
+b10 "
+b10 7
+b11 1
+10
+b1 .
+b1 :
+#400
+b100 1
+00
+#500
+b11 "
+b11 7
+b101 1
+10
+b10 .
+b10 :
+#600
+b110 1
+00
+#700
+b100 "
+b100 7
+b111 1
+10
+b11 .
+b11 :
+#800
+b1000 1
+00
+#900
+b101 "
+b101 7
+b1001 1
+10
+b100 .
+b100 :
+#1000
+b1010 1
+00
+#1100
+b110 "
+b110 7
+b1011 1
+10
+b101 .
+b101 :
+#1200
+b1100 1
+00
+#1300
+b111 "
+b111 7
+b1101 1
+10
+b110 .
+b110 :
+#1400
+b1110 1
+00
+#1500
+b1000 "
+b1000 7
+b1111 1
+10
+b111 .
+b111 :
+#1600
+b10000 1
+00
+#1700
+0$
+b1001 "
+b1001 7
+b10001 1
+10
+bz .
+bz :
+#1800
+b10010 1
+00
+#1900
+b1010 "
+b1010 7
+b10011 1
+10
+#2000
+b10100 1
+00
+#3680
+1/
